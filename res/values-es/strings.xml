@@ -89,7 +89,7 @@
        - Used by the progress dialog when loading AsyncTask
     ####################################################### -->
     <string name="progress_load_setup">Verificando configuración del dispositivo</string>
-    <string name="progress_load_config">Recopilando configuraciones del dispositivo</string>
+    <string name="progress_load_config">Recopilando configuración del dispositivo</string>
     <string name="progress_load_properties">Recopilando valores de propiedad del script</string>
     
     <!-- ######################################################
@@ -109,11 +109,11 @@
     <!-- ######################################################
        - Item names used by the Application Settings Activity
     ####################################################### -->
-    <string name="settings_style_theme_name">Tema Oscuro Theme</string>
+    <string name="settings_style_theme_name">Tema Oscuro</string>
     <string name="settings_style_theme_description">Usar tema oscuro en vez del claro por defecto</string>
-    <string name="settings_style_layout_name">Config. Estilo</string>
+    <string name="settings_style_layout_name">Configurar Estilo</string>
     <string name="settings_style_layout_description">Usar estilo de la configuración global</string>
-    <string name="settings_style_dialog_name">Config. Tablet</string>
+    <string name="settings_style_dialog_name">Configuración Tablet</string>
     <string name="settings_style_dialog_description">Usar cuadro de diálogo de ventana de configuración de la aplicación</string>
  
     <string name="settings_general_profiles_name">Permitir todos los perfiles</string>
@@ -181,8 +181,8 @@
     <string name="option_memory_item_zram">ZRAM</string>
     <string name="option_memory_item_swappiness">Swappiness</string>
     
-    <string name="option_filesystem_item_fschk">Comprobar Sistema de archivos</string>
-    <string name="option_filesystem_item_fstype">Driver</string>
+    <string name="option_filesystem_item_fschk">Comprobar sistema de archivos</string>
+    <string name="option_filesystem_item_fstype">Controlador</string>
     <string name="option_filesystem_item_journal">Journal</string>
     
     <string name="option_mmc_item_readahead">Readahead</string>
@@ -206,8 +206,8 @@
     <string name="option_content_description_media">Mover almacenamiento interno (/data/media) a sd-ext</string>
     <string name="option_content_description_system">Mover todos los archivos de datos almacenados del sistema a sd-ext</string>
     
-    <string name="option_memory_description_swap">Activar SWAP (3\'rd sdcard particion)</string>
-    <string name="option_memory_description_zram">Activar ZRAM (Pequeña partición almacenada memoria SWAP para la indexación)</string>
+    <string name="option_memory_description_swap">Activar SWAP (3rd partición sdcard)</string>
+    <string name="option_memory_description_zram">Activar ZRAM (Pequeña partición almacen memoria SWAP para la indexación)</string>
     <string name="option_memory_description_swappiness">Especificar la agresividad de intercambio</string>
     
     <string name="option_filesystem_description_fschk">Ejecutar una revisión del sistema de archivos en sd-ext durante el arranque</string>
